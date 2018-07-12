@@ -1,8 +1,10 @@
 # Simple Mocking Demo - JavaScript
 
+📝 *These are the instructor notes for a simple demonstration of JavaScript callbacks and the concept of mocking and stubbing.*
+
 ## Callbacks
 
-This is why we need callbacks. Explain what `setTimeout` does and the fact that it is async. Create a file and run it with `node timeout.js`.
+This is why we need callbacks. Explain what `setTimeout` does and the fact that it is async. Create a file and run it with `node callbackExample.js`.
 
 ```js
 setTimeout(function() {
@@ -11,7 +13,7 @@ setTimeout(function() {
 console.log('second')
 ```
 
-Bump up the timeout so the pause is more obvious.
+Bump up the timeout so the pause is more obvious. Talk through the execution order of the code.
 
 Now let's look at an example. We'll build a function called `capitalizeName` which takes a name and then does some asyncronous work - in this case calling the `setTimeout` function (which is async) and setting a `newName`. We'll try to return the `newName`.
 
